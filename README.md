@@ -58,7 +58,7 @@ The available sections : you can copy them, but without these parentheses () :)
 
 This is a Web Scraping script (WUZZUF.com), extracting the (Title, Location, Company Name,Experience, Skills).
 
-## yallakora.com
+## yallakora
 
 This is a Web Scraping script scraps (yallakora.com), extracting (نوع الدوري, الفريق الأول, النتيجة, الفريق الثاني, ميعاد المباراة). The script needs you to give it the date of the day that you want to scrap. like this format (MM/DD/YYYY)
 
