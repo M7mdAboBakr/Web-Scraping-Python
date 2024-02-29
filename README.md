@@ -1,4 +1,6 @@
-# books.toscrape--WebScraping
+# Web-Scraping-Python
+## books.toscrape
+
 This is a Web Scraping script scraps (books.toscrape.com), extracting the (Title, Rate, Price). The script needs you to give him the wanted section.
 The available sections : you can copy them, but without these parentheses () :)
 (Travel)
@@ -51,3 +53,15 @@ The available sections : you can copy them, but without these parentheses () :)
 (Cultural)
 (Erotica)
 (Crime)
+
+## wuzzuf
+
+This is a Web Scraping script (WUZZUF.com), extracting the (Title, Location, Company Name,Experience, Skills).
+
+## yallakora.com
+
+This is a Web Scraping script scraps (yallakora.com), extracting (نوع الدوري, الفريق الأول, النتيجة, الفريق الثاني, ميعاد المباراة). The script needs you to give it the date of the day that you want to scrap. like this format (MM/DD/YYYY)
+
+## diwan
+
+This is a web scraping script (diwan.com), extracting (Book Name, Price).
