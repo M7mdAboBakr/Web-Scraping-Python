@@ -1,67 +1,64 @@
-# Web-Scraping-Python
-## books.toscrape
+# 🕸️ Web Scraping with Python
 
-This is a Web Scraping script scraps (books.toscrape.com), extracting the (Title, Rate, Price). The script needs you to give him the wanted section.
-The available sections : you can copy them, but without these parentheses () :)
-(Travel)
-(Mystery)
-(Historical Fiction)
-(Sequential Art)
-(Classics)
-(Philosophy)
-(Romance)
-(Womens Fiction)
-(Fiction)
-(Childrens)
-(Religion)
-(Nonfiction)
-(Music)
-(Default)
-(Science Fiction)
-(Sports and Games)
-(Add a comment)
-(Fantasy)
-(New Adult)
-(Young Adult)
-(Science)
-(Poetry)
-(Paranormal)
-(Art)
-(Psychology)
-(Autobiography)
-(Parenting)
-(Adult Fiction)
-(Humor)
-(Horror)
-(History)
-(Food and Drink)
-(Christian Fiction)
-(Business)
-(Biography)
-(Thriller)
-(Contemporary)
-(Spirituality)
-(Academic)
-(Self Help)
-(Historical)
-(Christian)
-(Suspense)
-(Short Stories)
-(Novels)
-(Health)
-(Politics)
-(Cultural)
-(Erotica)
-(Crime)
+A collection of Python scripts for web scraping practice. Each script extracts structured data from different websites using `requests`, `BeautifulSoup`, and other Python tools.
 
-## wuzzuf
+---
 
-This is a Web Scraping script (WUZZUF.com), extracting the (Title, Location, Company Name,Experience, Skills).
+## 📂 Projects Included
 
-## yallakora
+### 📘 Books to Scrape
 
-This is a Web Scraping script scraps (yallakora.com), extracting (نوع الدوري, الفريق الأول, النتيجة, الفريق الثاني, ميعاد المباراة). The script needs you to give it the date of the day that you want to scrap. like this format (MM/DD/YYYY)
+Scrapes data from [books.toscrape.com](https://books.toscrape.com), extracting:
 
-## diwan
+* **Title**
+* **Rating**
+* **Price**
 
-This is a web scraping script (diwan.com), extracting (Book Name, Price).
+🔹 You can specify a section (category) such as:
+`Travel`, `Mystery`, `Philosophy`, `Romance`, `Science Fiction`, `History`, `Business`, `Thriller`, `Health`, `Politics`, `Crime`, and many more.
+
+---
+
+### 💼 Wuzzuf Jobs
+
+Scrapes job listings from [wuzzuf.com](https://wuzzuf.com), extracting:
+
+* **Job Title**
+* **Company Name**
+* **Location**
+* **Experience Required**
+* **Skills**
+
+---
+
+### ⚽ YallaKora Matches
+
+Scrapes match data from [yallakora.com](https://www.yallakora.com), extracting:
+
+* **League Name**
+* **Team 1**
+* **Result**
+* **Team 2**
+* **Match Date**
+
+📅 Requires you to input a date in the format:
+
+```
+MM/DD/YYYY
+```
+
+---
+
+### 📚 Diwan Books
+
+Scrapes books from [diwan.com](https://diwan.com), extracting:
+
+* **Book Name**
+* **Price**
+
+---
+
+## 📌 Notes
+
+* These scripts are for **educational purposes only**.
+* Websites may change their structure over time, so selectors might need updates.
